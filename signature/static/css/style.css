@@ -3,3 +3,15 @@
 .footer-background {
     background-color:#a9a9a9;
 }
+
+
+/* home page */
+
+.hero-image {
+    background-image: url("../img/hero-image.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
