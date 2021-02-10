@@ -10,8 +10,6 @@
 .hero-image {
     background-image: url("../img/hero-image.jpg");
     height: 100vh;
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
