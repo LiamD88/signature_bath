@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'review.apps.ReviewConfig',
     'contact.apps.ContactConfig',
     'work.apps.WorkConfig',
     'home.apps.HomeConfig',
