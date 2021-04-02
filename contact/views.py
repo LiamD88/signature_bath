@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .forms import ContactForm
 from .models import Contact
-from .forms import ContactForm
 
 def contact(request):
 
@@ -9,8 +8,9 @@ def contact(request):
 
         form = Contact(    
             name = request.POST.get('name'),
-            message = request.POST.get('message'),
-            email = request.POST.get('email')
+            number = request.POST.get('number'),
+            email = request.POST.get('email'),
+            message = request.POST.get('message')
         )
         form.save()
 

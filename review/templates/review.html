@@ -32,6 +32,28 @@
     </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <form method="POST" action="{% url 'review' %}">
+
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form }}
+            </div>
+
+            <input type="submit" value="Submit" class="btn btn-primary">
+
+
+
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
+
 
 
 {% endblock %}
