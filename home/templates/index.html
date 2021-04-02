@@ -4,16 +4,20 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-12 hero-image">
 
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
-            <h2>Signature Bathrooms</h2>
-            <p>ipsem Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam dicta libero magnam necessitatibus? Nobis, laudantium natus vero quae velit iusto. Consectetur, esse! Tempore nostrum eligendi sit quaerat est natus?</p>
+        <div class="col-md-6 signature-text">
+            <h1 class="ml6">
+                <span class="text-wrapper">
+                  <span class="letters">Signature Bathrooms</span>
+                </span>
+              </h1>
+            <p class="signature-text">ipsem Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam dicta libero magnam necessitatibus? Nobis, laudantium natus vero quae velit iusto. Consectetur, esse! Tempore nostrum eligendi sit quaerat est natus?</p>
 
         </div>
     </div>
@@ -25,4 +29,10 @@
 </div>
 
 
+{% endblock %}
+
+
+{% block jscontent %} <!-- cdn for text animation in centre of page and script to load extra javascript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="{% static 'js/text.js' %}"></script>
 {% endblock %}

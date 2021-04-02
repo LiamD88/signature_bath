@@ -1,16 +1,36 @@
 /* colours */
 
-.footer-background {
-    background-color:#a9a9a9;
-}
 
 
 /* home page */
 
 .hero-image {
     background-image: url("../img/hero-image.jpg");
-    height: 100vh;
+    height: 55vh;
     background-position: center;
     background-size: cover;
 }
 
+.signature-text {
+    margin-top: 1.5em;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
