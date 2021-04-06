@@ -5,7 +5,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 form-padding">
             <div class="jumbotron">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -17,7 +17,7 @@
               </div> 
               
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 form-padding">
             <div class="jumbotron">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -32,11 +32,12 @@
     </div>
 </div>
 
-<div class="container">
+
+
+<div class="container-fluid mainbg">
   <div class="row">
-    <div class="col-12">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+    <div class="col-md-6 mx-auto form-padding">
+      <div class="card-body card-body2">
         <form method="POST" action="{% url 'review' %}">
 
             {% csrf_token %}
@@ -53,4 +54,12 @@
     </div>
   </div>
 </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 mainbg2 form-padding2">
+      <h1 class="text-white text-center">LET US KNOW HOW WE DID, LEAVE A REVIEW!</h1>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
