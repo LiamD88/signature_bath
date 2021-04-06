@@ -1,6 +1,16 @@
 /* colours */
 
+.mainbg {
+  background-color: #427ed1; 
+}
 
+.mainbg2 {
+  background-color: #2b2e32; 
+}
+
+.navbar-light .navbar-brand {
+  color: #427ed1;
+  }
 
 /* home page */
 
@@ -45,9 +55,32 @@
   
   }
 
+.nav-letters {
+  font-size: 2em;
+  font-weight: 600;
+}
+
 /* work page */
 
 .image-size {
   height: 15em;
   width: 15em;
+}
+
+
+/* contact page */
+
+.section-pad {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.section-pad2 {
+  margin-top: 5em;
+  margin-bottom: 5.4em;
+}
+
+.bio-text {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
