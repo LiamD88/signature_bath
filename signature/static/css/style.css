@@ -77,10 +77,24 @@
 
 .section-pad2 {
   margin-top: 5em;
-  margin-bottom: 5.4em;
+  margin-bottom: 5em;
 }
 
 .bio-text {
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+.card-text {
+  padding-bottom: 0.3em;
+}
+
+
+
+.form-control {
+  margin: 1em 0;
+}
+
+.card-body {
+  background-color: #f4f1f1!important;
 }

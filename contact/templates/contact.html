@@ -5,27 +5,26 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 bio-text">
-            <h2>Who we are...</h2>
+            <h2 class="card-text">Who we are...</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi ut blanditiis nostrum doloribus
                 suscipit deleniti sunt adipisci, illo tempora non perferendis accusantium delectus iste optio dolores
                 modi, nihil laborum!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, enim laborum! Architecto veritatis
                 quibusdam error quisquam iste eligendi nam esse. Sunt, obcaecati officiis distinctio incidunt dolores
                 tenetur perferendis fugiat eligendi.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, optio debitis! Dolorum amet corrupti
-                quod, odio in incidunt voluptatem deleniti sapiente impedit sunt quis asperiores vitae maxime, iste esse
-                autem.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae provident voluptatibus blanditiis
-                veniam officia eveniet, quam unde nesciunt. Nobis, porro quidem! Tempora hic labore optio eveniet
-                adipisci fuga vero necessitatibus.</p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, enim laborum! Architecto veritatis
+                quibusdam error quisquam iste eligendi nam esse. Sunt, obcaecati officiis distinctio incidunt dolores
+                tenetur perferendis fugiat eligendi.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, enim laborum! Architecto veritatis
+                quibusdam error quisquam iste eligendi nam esse. Sunt, obcaecati officiis distinctio incidunt dolores
+                tenetur perferendis fugiat eligendi.
+               </p>
                 
         </div>
 
         <div class="col-md-6 bio-text">
-            <h3 class="text-center">Get A Quote!</h3>
-            <div class="card">
+            <h3 class="text-center card-text">Get A Quote!</h3>
+            <div class="card border border-black">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
                     <form method="POST" action="{% url 'contact' %}">
 
                         {% csrf_token %}
