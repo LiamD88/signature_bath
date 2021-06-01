@@ -68,6 +68,26 @@
 }
 
 
+.car-hov:hover {  
+  -webkit-box-shadow: 4px 4px 2.5px #7D9CB1;
+          box-shadow: 4px 4px 2.5px #7D9CB1;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 0;
+
+}
+
+.button.carousel-control-prev, button.carousel-control-next {
+  opacity: 0!important;
+
+}
+
+
+
 /* contact page */
 
 .section-pad {
