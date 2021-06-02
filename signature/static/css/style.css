@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+
+
 /* colours */
 
 .mainbg {
@@ -11,6 +15,17 @@
 .navbar-light .navbar-brand {
   color: #427ed1;
   }
+
+/* fonts */
+
+.sig-text {
+
+  font-family: 'Allura', cursive;
+
+}
+
+
+
 
 /* home page */
 
@@ -37,7 +52,7 @@
     padding-top: 0.2em;
     padding-right: 0.05em;
     padding-bottom: 0.1em;
-    overflow: hidden;
+  
   }
   
   .ml6 .letter {
