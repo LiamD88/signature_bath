@@ -76,17 +76,6 @@
           transform: scale(1.1);
 }
 
-.carousel-control-prev, .carousel-control-next {
-  opacity: 0;
-
-}
-
-.button.carousel-control-prev, button.carousel-control-next {
-  opacity: 0!important;
-
-}
-
-
 
 /* contact page */
 
