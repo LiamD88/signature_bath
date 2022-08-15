@@ -1,1 +1,1 @@
-web: gunicorn signature_bath.wsgi:application
+web: gunicorn signature-bath.wsgi:application
