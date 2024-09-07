@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['signature-bath.herokuapp.com',
+ALLOWED_HOSTS = ['signature-bath-9a08821176d7.herokuapp.com',
                 '127.0.0.1',]
 
 
