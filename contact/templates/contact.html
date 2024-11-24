@@ -24,20 +24,29 @@
             </div>
           
             <div class="card border border-black">
-                <div class="card-body">
-                    <form method="POST" action="{% url 'contact' %}">
-
-                        {% csrf_token %}
-                        <div class="form-group">
-                            {{ form }}
-                        </div>
-
-                        <input type="submit" value="Submit" class="btn btn-primary">
-
-
-
-                    </form>
-                </div>
+                <div class="col-md-6 mx-auto bot-pad">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                      <input type="hidden" name="access_key" value="a75bccc5-50f8-4f59-998d-f67765f5c175">
+                      <input type="hidden" name="redirect" value="">
+                      <div class="form-group">
+                        <label for="formGroupExampleInput" class="descrip-text">Enter Name</label>
+                        <input type="text" name="name" required class="form-control" id="formGroupExampleInput"
+                          placeholder="Name..">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="descrip-text">Email address</label>
+                        <input type="email" name="email" required class="form-control" id="email" aria-describedby="emailHelp"
+                          placeholder="Email..">
+                        <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2" class="descrip-text">Message</label>
+                        <input type="text" name="message" required class="form-control" id="formGroupExampleInput2"
+                          placeholder="Lets Go..">
+                      </div>
+                      <div class="but-pad">
+                        <button type="submit" class="btn btn-primary round-button descrip-text">Submit</button>
+                      </div>
             </div>
         </div>
     </div>
@@ -58,7 +67,7 @@
     <div class="container-fluid mainbg2">
         <div class="row">
             <div class="col-12 section-pad2">
-                <h1 class="text-white text-center">Email:signaturebathroomsdublin@gmail.com</h1>
+                <h1 class="text-white text-center">Email:signatbath@gmail.com</h1>
 
             </div>
         </div>
