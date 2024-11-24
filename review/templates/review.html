@@ -97,33 +97,4 @@
 
 
 
-
-<div class="container-fluid mainbg">
-  <div class="row">
-    <div class="col-md-6 mx-auto form-padding">
-      <div class="card-body card-body2">
-        <form method="POST" action="{% url 'review' %}">
-
-            {% csrf_token %}
-            <div class="form-group">
-                {{ form }}
-            </div>
-
-            <input type="submit" value="Submit" class="btn btn-primary">
-
-
-
-        </form>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 mainbg2 form-padding2">
-      <h1 class="text-white text-center">LET US KNOW HOW WE DID, LEAVE A REVIEW!</h1>
-    </div>
-  </div>
-</div>
-
 {% endblock %}
